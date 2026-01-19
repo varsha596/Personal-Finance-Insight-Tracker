@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6fb;
+  color: #1f2937;
+}
+
+/* Header */
+.top-bar {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: white;
+  padding: 35px 20px;
+  text-align: center;
+}
+
+.top-bar h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.top-bar p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Main container */
+.app-container {
+  max-width: 1000px;
+  margin: -40px auto 40px;
+  padding: 0 20px;
+}
+
+/* Cards */
+.card-section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-section h2 {
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+
+/* Form */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Button */
+button {
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* Summary */
+.summary-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.summary-card {
+  padding: 22px;
+  border-radius: 12px;
+  color: white;
+}
+
+.summary-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.summary-card p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.income {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+}
+
+.expense {
+  background: linear-gradient(135deg, #dc2626, #ef4444);
+}
+
+.balance {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f1f5f9;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
